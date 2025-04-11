@@ -58,9 +58,9 @@ Desenhe o processo do fluxo do processo de atendimento, incluindo interações e
 Exemplifique, com um print de um prompt e uma resposta, como que uma IA poderia ajudar nesse atendimento. Sugerimos o uso de ChatGPT ou Bard.
 
 Resolução:
-Com relação a essa propota de implementação do chatbot primeiro realizaria um mapeamento de perguntas e dores frequentes como coleta de dados históriocos e tickets, outro ponto seria o treinamento e personalização da IA sendo moldada pelos documentos da dadosfera para entender todo o processo dentro das atividades. Integração com o site/suporte da Dadosfera sendo uma adição de um botão de chat no portão e se o chat não conseguir resolver o problema é aberto um ticket com todo o contexto do usuário e do erro já estruturado para o humano.
+Com relação a essa propota de implementação do chatbot primeiro realizaria um mapeamento de perguntas e dores frequentes como coleta de dados históricos e tickets, outro ponto seria o treinamento e personalização da IA sendo moldada pelos documentos da dadosfera para entender todo o processo dentro das atividades. Integração com o site/suporte da Dadosfera sendo uma adição de um botão de chat no portão e se o chat não conseguir resolver o problema é aberto um ticket com todo o contexto do usuário e do erro já estruturado para o humano.
 
-*Processo de fluxo de antendimento*
+*Processo de fluxo de atendimento*
 ![image](https://github.com/user-attachments/assets/96468f51-e099-4a88-bcce-4884127df261)
 
 
