@@ -28,7 +28,7 @@ Se tiver mais dúvidas pode perguntar, e segue abaixo o link da documentação g
 *Case 2* *Item processos internos:* Imagine que a Dadosfera está passando por um upgrade e incorporando uma nova plataforma de gerenciamento de diretório em nuvem, com SSO e recursos de ciclo de vida do usuário. Como você organiza e implementa esses marcos para garantir uma transição suave e eficiente? Isso pode impactar o caso anterior? Explique como se daria cada interação com a base de clientes, de forma que eles se preparem para a mudança.
 
 Resolução: 
-Para essa mudança é necessária envolver todas as partes interessadas, criar um plano de comunicação claro e transparente com todos os envolvidos, realizar o backup dos dados, oferecer suporte continuo aos colaboradores durante a transição como também a comunicação e interação com os clientes a deixar eles a parte da mudança que vai ocorrer, com isso alguns pontos:
+Para essa mudança é necessária envolver todas as partes interessadas, criar um plano de comunicação claro e transparente com todos os envolvidos, realizar o backup dos dados, oferecer suporte contínuo aos colaboradores durante a transição como também a comunicação e interação com os clientes a deixar eles a parte da mudança que vai ocorrer, com isso alguns pontos:
 
  *Planejamento e análise:* 
   * Mapeamento das partes interessadas; 
@@ -38,13 +38,13 @@ Para essa mudança é necessária envolver todas as partes interessadas, criar u
  *Planejamento técnico:* 
   * Levantar os requisitos técnicos e os impactos operacionais; 
   * Criação de um roadmap compartilhável com os stakeholders internos e externos; 
-  * Bateria de teste para buscar uma melhor performace da plataforma e como está sendo suportada.
+  * Bateria de teste para buscar uma melhor performance da plataforma e como está sendo suportada.
 
  *Comunicação com os clientes:* 
   * Realizar o aviso prévio com o contexto sobre a mudança e datas; 
   * Canal de suporte sendo email e/ou chat exclusivo para dúvidas relacionadas a transição; 
   * Central de ajuda com perguntas frequentes; 
-  * E outra opção seria a migrassão assistida para os clientes com os dados mais criticos ou todos os clientes.
+  * E outra opção seria a migração assistida para os clientes com os dados mais críticos ou todos os clientes.
 
 E com relação ao caso anterior, pode afetar sim, depedendo do caminho do endereço da plataforma pode gerar outro tipo de erro de acesso, como também permissões alteradas ou depreciação da permissão. Outro ponto a se antentar é o modo de acessar a nova plataforma se restringe a outros tipos de envios de arquivos.
 
