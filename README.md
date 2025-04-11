@@ -6,7 +6,7 @@
 Resolução: 
 O erro que está ocorrendo é por conta que a planilha que a plataforma está tentando acessar não têm permissões de autenticação necessárias para o acesso a planilha e com isso ocorre o erro na importação. O que se deve fazer nesse caso é verificar: 
 
-  1° Se dentro da script no formato json contem as permissões para que a plataforma acesse a planilha como, "https://www.googleapis.com/auth/spreadsheet", se se não houver, atualizar.
+  1° Se dentro da script no formato json contem as permissões para que a plataforma acesse a planilha como, "https://www.googleapis.com/auth/spreadsheet", se não houver, atualizar.
 
   2° Se há uma scrpit no formato json onde cria o fluxo para o envio da planilha para a plataforma, e se não houver criar o script por exemplo: exemplo.json
 
@@ -66,3 +66,49 @@ Com relação a essa propota de implementação do chatbot primeiro realizaria u
 
 *Exemplo de prompt de um cliente com o chatbot*
   ![image](https://github.com/user-attachments/assets/1a40422b-2ba9-4c34-830f-7b959086e32d)
+
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+
+*Case 4* *Item Consultas SQL*
+
+Criação da tabela referente a toda informação da tablea disponibilizada
+
+    select *
+    
+    from TB__YCYBP3__CASE_TECNICO_EMPLOYEE_TB
+
+![cropped-image-1744411532992lq9je](https://github.com/user-attachments/assets/93302bbf-0c0b-42be-8659-4d6d2985dc0b)
+
+Criação do gráfico pizza referente a informação da quantidade de deparamentos
+
+    select  
+        a.DEPARTMENT,
+        count(*) as Quantity
+    
+    from TB__YCYBP3__CASE_TECNICO_EMPLOYEE_TB as a
+
+![cropped-image-1744411532992lq9je (1)](https://github.com/user-attachments/assets/3916d03f-3c5d-4e9d-a0d0-8c04b3ddcdf4)
+
+
+Criação das barras laterais referente a informação da quantidade de cargos
+
+    select 
+        JOBROLE,
+        count(*) as Quantidade
+
+    from TB__YCYBP3__CASE_TECNICO_EMPLOYEE_TB
+
+![cropped-image-17444116430742z1pa (1)](https://github.com/user-attachments/assets/447be366-afde-4270-8e92-3fb169b8f505)
+
+
+Criação das barras verticais referente a informação da média de idade em cada cargo ocupado
+
+    select
+        JOBROLE as cargo,
+        avg(age) as idade
+    
+    from TB__YCYBP3__CASE_TECNICO_EMPLOYEE_TB
+
+![cropped-image-17444116430742z1pa](https://github.com/user-attachments/assets/c6bc5347-96e6-4866-8a81-752689b273b5)
+
