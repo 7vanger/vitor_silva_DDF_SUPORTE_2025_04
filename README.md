@@ -1,5 +1,12 @@
 # vitor_silva_DDF_SUPORTE_2025_04
 
+link do vídeo apresentação: https://youtu.be/Yo_YKqPZNAk
+
+link da apresentação: https://docs.google.com/presentation/d/1UppJDi6sfcbaDw-tn2FNlAFUFeubE0THWXOBIpuev2s/edit?usp=sharing
+
+-----------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
+
 *Case 1*
 *Item Troubleshooting:* Imagine que você é um analista de suporte e recebe um chamado do cliente reportando um problema na importação dos dados da Dadosfera. Você deve responder como se estivesse interagindo com o cliente no atendimento do chamado. O erro ocorreu nesta pipeline de coleta na Dadosfera. Sugira a alteração a ser feita no Dataset e escreva sobre outros cuidados que nosso usuário deve ter quando carregar dados do Google Sheets para a plataforma. Utilize a documentação da Dadosfera para entender como baixar os logs.
 
